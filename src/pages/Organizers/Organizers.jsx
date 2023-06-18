@@ -1,3 +1,4 @@
+import React from 'react';
 import Fade from "react-reveal/Fade";
 import { Container } from "@components/atoms";
 import { Helmet } from "react-helmet";

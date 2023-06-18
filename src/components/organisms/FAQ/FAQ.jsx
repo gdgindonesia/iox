@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import { BiChevronDown } from "react-icons/bi";
 import { DATA_FAQ } from "@data";
