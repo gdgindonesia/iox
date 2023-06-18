@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container } from "@components/atoms/Container/Container";
 
 export const Footer = () => {

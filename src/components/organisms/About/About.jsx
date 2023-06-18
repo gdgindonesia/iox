@@ -1,3 +1,4 @@
+import React from 'react';
 import ReactPlayer from "react-player";
 import { MdDateRange, MdLaunch, MdLocationOn, MdPeople } from "react-icons/md";
 import { ButtonLink, ButtonGdg } from "@components/atoms";
@@ -51,12 +52,12 @@ export const About = () => {
       site: "https://gdg.community.dev/events/details/google-gdg-bali-presents-google-io-extended-bali-2023/",
     },
     {
-      name: "Cloud Bdg",
+      name: "Cloud Bandung",
       icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-cloud-bandung-presents-io-extended-bandung-cloud/",
     },
     {
-      name: "Cloud Sby",
+      name: "Cloud Surabaya",
       icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-cloud-surabaya-presents-google-io-extended-cloud-surabaya-2023/",
     },
@@ -64,6 +65,16 @@ export const About = () => {
       name: "Yogyakarta",
       icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-jogjakarta-presents-google-io-extended/",
+    },
+    {
+      name: "Cloud Surabaya",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "https://gdg.community.dev/events/details/google-gdg-cloud-surabaya-presents-google-io-extended-cloud-surabaya-2023/",
+    },
+    {
+      name: "Cloud Jakarta",
+      icon: require("@assets/images/logo/gdg.svg").default,
+      site: "",
     },
   ];
 
@@ -153,7 +164,7 @@ export const About = () => {
             <div className="rounded-lg overflow-hidden">
               <ReactPlayer
                 width="100%"
-                url="https://www.youtube.com/watch?v=CZn5x9nSw9M"
+                url="https://www.youtube.com/watch?v=hgjj6_k6yCo"
                 controls
               />
             </div>
@@ -169,7 +180,7 @@ export const About = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
             {CHAPTERS.map((chapter) => (
               <ButtonGdg
-                text={`GDG ${chapter.name}`}
+                text={`${chapter.name}`}
                 className="w-full sm:w-5/6 md:w-auto justify-between"
                 href={`${chapter.site}`}
                 prefixIcon={<img src={chapter.icon} alt=""/>}

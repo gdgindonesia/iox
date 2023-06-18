@@ -3,7 +3,6 @@ import { FiChevronRight } from "react-icons/fi";
 import Fade from "react-reveal/Fade";
 import { Button, Container } from "@components/atoms";
 import { About, FAQ, Speakers, Sponsors } from "@components/organisms";
-import { ROUTES } from "src/routes";
 
 function Home() {
   return (
@@ -39,7 +38,7 @@ function Home() {
 
               <div className="flex items-center justify-start">
                 <Button
-                  linkTo={ROUTES.SPEAKERS}
+                  linkTo="/speakers"
                   text="See All Speakers"
                   icon={<FiChevronRight />}
                 />

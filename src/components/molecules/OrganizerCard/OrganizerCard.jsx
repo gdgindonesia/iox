@@ -1,3 +1,4 @@
+import React from 'react';
 import { HELPERS } from "@utils/helpers";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
