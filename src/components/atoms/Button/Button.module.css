@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border: 1.5px solid #dcdddf;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+.icon {
+    width: 20%;
+}
+
+.text {
+    width: 70%;
+}
