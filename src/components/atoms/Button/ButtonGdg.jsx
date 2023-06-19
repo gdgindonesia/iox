@@ -1,17 +1,17 @@
 import React from "react";
-import "./Button.css";
+import styles from "./Button.module.css";
 
 export function ButtonGdg({ className, href, text, prefixIcon, ...props }) {
   return (
     <a
-      className={`button ${className}`}
+      className={styles.container}
       href={href}
       target="_blank"
       rel="noreferrer"
       {...props}
     >
-      {prefixIcon && <span className="gdg-button">{prefixIcon}</span>}
-      <span className="tracking-wider">{text}</span>
+      {prefixIcon && <span className={styles.icon}>{prefixIcon}</span>}
+      <span className={styles.text}>{text}</span>
     </a>
   );
 }
