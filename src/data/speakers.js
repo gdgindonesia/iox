@@ -3,12 +3,14 @@ export const DATA_SPEAKERS = [
     chapter: "Jogjakarta",
     name: "Saurabh Arora",
     roles: "Senior Android Engineer",
+    featured_speaker: true,
     institution: "Twitter",
     avatarUrl: "https://pbs.twimg.com/profile_images/1280547687914328070/KIfXKBub_400x400.jpg"
   },
   {
       chapter: "Jogjakarta",
       name: "Eka Jayani Ayuningtyas",
+      featured_speaker: true,
       roles: "Web Developer",
       institution: "AtmaConnect",
       avatarUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/events/eka-headshot-2019.jpg"
@@ -17,6 +19,7 @@ export const DATA_SPEAKERS = [
       chapter: "Jogjakarta",
       name: "Qassandra Chaidir",
       roles: "System Engineer - Cloud Platform",
+      featured_speaker: true,
       institution: "Tokopedia",
       avatarUrl: "https://media.licdn.com/dms/image/D5603AQEHWECW9c1o-A/profile-displayphoto-shrink_800_800/0/1686367471007?e=2147483647&v=beta&t=3VfUvE1l4yY1gUCqjIxCgabl9sx0ujXPokDs4Plx6aA"
   },
@@ -24,6 +27,7 @@ export const DATA_SPEAKERS = [
       chapter: "Jogjakarta",
       name: "Stevani Dwi Utomo",
       roles: "Machine Learning Engineer",
+      featured_speaker: true,
       institution: "ENB Mobile Care",
       avatarUrl: "https://media.licdn.com/dms/image/D4D03AQEEEdwYIZ_lHA/profile-displayphoto-shrink_800_800/0/1678780956413?e=2147483647&v=beta&t=xCzzbIKGWz215KJ13eJenUvOv99yONDiOqICQZ_9HN0"
   },
@@ -65,7 +69,8 @@ export const DATA_SPEAKERS = [
   {
       chapter: "Depok",
       name: "Ananda Dwi",
-      roles: "GDE Cloud\nSenior Cloud Engineer",
+      roles: "GDE Cloud, Senior Cloud Engineer",
+      featured_speaker: true,
       institution: "PT Boer Technology (BTech)",
       avatarUrl: "https://media.licdn.com/dms/image/C5603AQG-WFnnrZ9rmw/profile-displayphoto-shrink_400_400/0/1603557826956?e=1692835200&v=beta&t=MjgbbIvI_TgpwiDH3YZOMpN25t0IvwTgyOGeMNgGeOg"
   },
@@ -87,6 +92,7 @@ export const DATA_SPEAKERS = [
       chapter: "Depok",
       name: "R Surahutomo Aziz Pradana",
       roles: "GDE Firebase\nEngineering Manager",
+      featured_speaker: true,
       institution: "Bukalapak",
       avatarUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/aziz.jpeg"
   },
@@ -94,6 +100,7 @@ export const DATA_SPEAKERS = [
       chapter: "Depok",
       name: "Jessica Cecilia Budianto ",
       roles: "Software Engineer Web Platform",
+      featured_speaker: true,
       institution: "Tokopedia",
       avatarUrl: "https://media.licdn.com/dms/image/C4E03AQGA77Sfz41zTA/profile-displayphoto-shrink_800_800/0/1612323570873?e=2147483647&v=beta&t=eDqYhYY11oUMDeM22tM8W99GWnXM1WSKWdpPVuDoSmA"
   },
@@ -101,6 +108,7 @@ export const DATA_SPEAKERS = [
       chapter: "Jakarta",
       name: "Riza Fahmi",
       roles: "GDE Web, CTO",
+      featured_speaker: true,
       institution: "Hacktiv8",
       avatarUrl: "https://media.licdn.com/dms/image/D5603AQHovs9aguUAyA/profile-displayphoto-shrink_400_400/0/1677836888008?e=1692835200&v=beta&t=MhFiNawwfVK0oo0w8AQQ9R-n19H0o-DqfHTvqmBVkJs"
   },
@@ -108,6 +116,7 @@ export const DATA_SPEAKERS = [
       chapter: "Jakarta",
       name: "Hassan Abid",
       roles: "GDE Android, CTO",
+      featured_speaker: true,
       institution: "BeLive Technology",
       avatarUrl: "https://media.licdn.com/dms/image/D5603AQGk5xlV3VHMQQ/profile-displayphoto-shrink_400_400/0/1683810765435?e=1692835200&v=beta&t=7z8ihIRzkFtNp2nA33V2YmgZyM5Tf3YSaKv1jJjNUaE"
   },
@@ -136,6 +145,7 @@ export const DATA_SPEAKERS = [
       chapter: "Bali",
       name: "Prabu Rangki",
       roles: "Senior Software Engineer",
+      featured_speaker: true,
       institution: "Kintell",
       avatarUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/271393948_1332383397199313_8289289408539540333_n%20-%20GDG%20Bali.jpg"
   }
