@@ -2,7 +2,7 @@ import React from 'react';
 import { HELPERS } from "@utils/helpers";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, social_media, className, ...props }) => {
+export const SpeakerCard = ({ name, institution, topic, avatarUrl, roles, social_media, className, ...props }) => {
   return (
     <div
       className={`bg-white rounded-lg border-2 hover:border-black px-3 ${className}`}
@@ -12,7 +12,7 @@ export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, socia
         <div>
           <img
             className="w-32 h-32 md:w-44 md:h-44 rounded-full object-cover"
-            src={avatar_url}
+            src={avatarUrl}
             alt={name}
             onError={HELPERS.handleBrokenImage}
           />
@@ -27,7 +27,7 @@ export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, socia
               </div>
             )}
           </div>
-          {Object.keys(social_media).length > 0 && (
+          {/* {Object.keys(social_media).length > 0 && (
             <div className="flex justify-center text-gray-500">
               {Object.keys(social_media).map((socmed) => (
                 <a
@@ -43,7 +43,7 @@ export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, socia
                 </a>
               ))}
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>

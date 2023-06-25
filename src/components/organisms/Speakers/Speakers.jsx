@@ -22,7 +22,7 @@ export function Speakers({ featured }) {
             name={speaker.name}
             institution={speaker.institution}
             topic={speaker.topic}
-            avatar_url={speaker.avatar_url}
+            avatarUrl={speaker.avatarUrl}
             roles={speaker.roles}
             social_media={speaker.social_media}
           />

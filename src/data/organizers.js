@@ -4,7 +4,7 @@ export const DATA_ORGANIZERS = [
     event_role: null,
     professional_role: "Software Engineer",
     institution: "Foo Bar",
-    avatar_url: "",
+    avatarUrl: "",
     social_media: {
       linkedin: "",
     },

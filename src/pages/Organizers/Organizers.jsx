@@ -31,7 +31,7 @@ export const Organizers = () => {
                   key={organizer.name}
                   className="w-full"
                   name={organizer.name}
-                  avatar_url={organizer.avatar_url}
+                  avatarUrl={organizer.avatarUrl}
                   event_role={organizer.event_role}
                   professional_role={organizer.professional_role}
                   institution={organizer.institution}

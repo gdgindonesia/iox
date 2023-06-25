@@ -7,7 +7,7 @@ export const OrganizerCard = ({
   event_role,
   professional_role,
   institution,
-  avatar_url,
+  avatarUrl,
   social_media,
   className,
 }) => {
@@ -17,7 +17,7 @@ export const OrganizerCard = ({
         <div className="flex flex-col items-center space-y-3">
           <img
             className="w-32 h-32 lg:w-40 lg:h-40 rounded-full object-cover"
-            src={avatar_url}
+            src={avatarUrl}
             alt={name}
             onError={HELPERS.handleBrokenImage}
           />
