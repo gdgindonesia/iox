@@ -5,7 +5,6 @@ import { ButtonLink, Container } from "@components/atoms";
 import { Agenda } from "@components/organisms";
 import { DATA_SCHEDULES } from "@data";
 import { CONSTANTS } from "@utils/constants";
-import { MdDateRange } from "react-icons/md";
 
 export const Schedules = () => {
   return (
@@ -23,8 +22,8 @@ export const Schedules = () => {
             <ButtonLink
               text="Find chapters"
               href="https://gdg.community.dev/events/#/list"
-              prefixIcon={<MdDateRange />}
-            />
+              prefixIcon={<img src={require("@assets/images/logo/gdg.svg").default} alt=""/>}
+              />
           </div>
         </Fade>
 

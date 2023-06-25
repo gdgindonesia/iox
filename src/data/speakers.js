@@ -34,8 +34,8 @@ export const DATA_SPEAKERS = [
   {
       chapter: "Jogjakarta",
       name: "Muh Isfhani Ghiath",
-      roles: "Senior Software Engineer Android",
-      institution: "Tokopedia",
+      roles: "Google Developer Experts",
+      institution: "Android",
       avatarUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/ishfa_N4E6i9M.jpeg"
   },
   {

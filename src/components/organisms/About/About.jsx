@@ -8,73 +8,59 @@ export const About = () => {
   const CHAPTERS = [
     {
       name: "Bogor",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-bogor-presents-google-io-extended-bogor-2/",
     },
     {
       name: "Depok",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-depok-presents-google-io-extended-depok-2023/",
     },
     {
       name: "Jakarta",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-jakarta-presents-google-io-extended-jakarta-2023/",
     },
     {
       name: "Medan",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-medan-presents-google-io-extended-medan-2023/",
     },
     {
       name: "Bandung",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-bandung-presents-google-io-extended-bandung-2023/",
     },
     {
       name: "Semarang",
-      icon: require("@assets/images/logo/gdg.svg").default,
-      site: "",
+      site: "https://gdg.community.dev/events/details/google-gdg-semarang-presents-google-io-extended-semarang-2023/",
     },
     {
       name: "Surabaya",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-surabaya-presents-google-io-extended-2023-surabaya/",
     },
     {
       name: "Makassar",
-      icon: require("@assets/images/logo/gdg.svg").default,
-      site: "",
+      site: "https://gdg.community.dev/events/details/google-gdg-makassar-presents-google-io-extended-2023-makassar/",
     },
     {
       name: "Bali",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-bali-presents-google-io-extended-bali-2023/",
     },
     {
       name: "Cloud Bandung",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-cloud-bandung-presents-io-extended-bandung-cloud/",
     },
     {
       name: "Cloud Surabaya",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-cloud-surabaya-presents-google-io-extended-cloud-surabaya-2023/",
     },
     {
       name: "Yogyakarta",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-jogjakarta-presents-google-io-extended/",
     },
     {
       name: "Cloud Surabaya",
-      icon: require("@assets/images/logo/gdg.svg").default,
       site: "https://gdg.community.dev/events/details/google-gdg-cloud-surabaya-presents-google-io-extended-cloud-surabaya-2023/",
     },
     {
       name: "Cloud Jakarta",
-      icon: require("@assets/images/logo/gdg.svg").default,
-      site: "",
+      site: "https://gdg.community.dev/events/details/google-gdg-cloud-jakarta-presents-gdg-cloud-jakarta-io-extended-2023/",
     },
   ];
 
@@ -183,7 +169,7 @@ export const About = () => {
                 text={`${chapter.name}`}
                 className="w-full sm:w-5/6 md:w-auto justify-between"
                 href={`${chapter.site}`}
-                prefixIcon={<img src={chapter.icon} alt=""/>}
+                prefixIcon={<img src={require("@assets/images/logo/gdg.svg").default} alt=""/>}
               />
             ))}
           </div>
