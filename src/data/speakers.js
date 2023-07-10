@@ -148,5 +148,53 @@ export const DATA_SPEAKERS = [
       featured_speaker: true,
       institution: "Kintell",
       avatarUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/271393948_1332383397199313_8289289408539540333_n%20-%20GDG%20Bali.jpg"
+  },
+  {
+      chapter: "Bandung",
+      name: "Ivan Kristianto",
+      roles: "Google Developer Experts Web Technology",
+      featured_speaker: true,
+      institution: "Human Made",
+      avatarUrl: "https://avatars.githubusercontent.com/u/656006?v=4"
+  },
+  {
+      chapter: "Bandung",
+      name: "Erico Darmawan Handoyo",
+      roles: "Flutter Tutorial Creator & Flutter Trainer",
+      featured_speaker: true,
+      institution: "",
+      avatarUrl: "https://avatars.githubusercontent.com/u/656006?v=4"
+  },
+  {
+      chapter: "Bandung",
+      name: "Hadian Rahmat",
+      roles: "Engineering Manager",
+      featured_speaker: true,
+      institution: "GITS.ID",
+      avatarUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/RNI-Films-IMG-E055227F-ADE6-4994-9DCD-BBA3BB199585.JPG"
+  },
+  {
+      chapter: "Bandung",
+      name: "Muhammad Saiful Islam",
+      roles: "Cloud Platform Architect",
+      featured_speaker: true,
+      institution: "GovTech Edu",
+      avatarUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/_MG_2893.JPG"
+  },
+  {
+      chapter: "Bandung",
+      name: "Muhammad Ghifary",
+      roles: "Director of R&D and Innovation",
+      featured_speaker: true,
+      institution: "Indonesia AI Society",
+      avatarUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/2022-03-24-150720220188-438e6d78-7caf-486c-995c-5aee72b8a821.jpg"
+  },
+  {
+      chapter: "Bandung",
+      name: "Ibnu Sina Wardy",
+      roles: "Google Developer Experts Cloud\nCo-founder",
+      featured_speaker: true,
+      institution: "Mofin.ID",
+      avatarUrl: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/1559966153752.jpg"
   }
 ];
